@@ -15,6 +15,7 @@
 
 .quiz_logo > h3 {
   margin-top: 1.25rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -75,5 +76,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
+.quiz_results > h1{
+  margin-bottom: .825rem;
+}
+
+.quiz_results > p{
+  font-size: 1.2rem;
+}
+

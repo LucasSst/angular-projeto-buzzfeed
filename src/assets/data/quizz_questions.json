@@ -1,24 +1,22 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Você seria um Herói, Ant-Herói ou Vilão?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Gosta de peixe?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Sim😁", "alias":"A"},
+        {"id": 2, "name":"Não🤮", "alias":"B"},
+        {"id": 3, "name":"Um pouco", "alias":"C"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Gosta de legumes?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Sim😁", "alias":"A"},
+        {"id": 2, "name":"Não🤮", "alias":"B"},
+        {"id": 3, "name":"Um pouco", "alias":"C"}
       ]
     },
     {
@@ -27,7 +25,7 @@
       "options":[
         {"id": 1, "name":"Não destruir prédios", "alias":"B"},
         {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
+        {"id": 3, "name":"Não sujar meu traje", "alias":"C"},
         {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
       ]
     },
@@ -35,21 +33,44 @@
       "id":4,
       "question": "Qual o seu maior foco ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Usar o poder obtido para conseguir dinheiro", "alias":"C"},
+        {"id": 2, "name":"Salvar a cidade", "alias":"B"},
+        {"id": 3, "name":"Utilizar o poder para conquistar reinos", "alias":"A"},
+        {"id": 4, "name":"O único foco sou EU", "alias":"A"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual seria a sua arma ?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Os socos", "alias":"B"},
+        {"id": 2, "name":"As armas", "alias":"A"},
+        {"id": 3, "name":"Katanas", "alias":"C"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Tem duas pessoas caindo, quem você salvaria primeiro?",
+      "options":[
+        {"id": 1, "name":"A mais velha", "alias":"C"},
+        {"id": 2, "name":"Tentaria o máximo salvar as duas", "alias":"A"},
+        {"id": 3, "name":"A mais nova", "alias":"C"},
+        {"id": 4, "name":"Não tenho motivos para salvar ninguém.", "alias":"B"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "O que mais importante em ter poderes?",
+      "options":[
+        {"id": 1, "name":"Ajudar os mais fracos.", "alias":"A"},
+        {"id": 2, "name":"Proteger quem pagar mais.", "alias":"C"},
+        {"id": 3, "name":"TENTAR DOMINAR O MUNDO!", "alias":"A"}
       ]
     }
   ],
   "results":{
     "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "B": "Você muito provavelmente seria um super Herói!",
+    "C": "Você muito provavelmente seria um super Ant-Herói!"
   }
 }

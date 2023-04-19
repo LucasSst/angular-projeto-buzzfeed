@@ -17,6 +17,7 @@ export class QuizComponent implements OnInit {
   questionMaxIndex:number = 0
 
   finished:boolean = false
+  playQuiz:boolean = false
   constructor() { }
 
   ngOnInit(): void {
@@ -66,5 +67,7 @@ export class QuizComponent implements OnInit {
 
     return result
   }
-
+  startQuiz(){
+    this.playQuiz = true
+  }
 }
